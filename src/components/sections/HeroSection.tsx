@@ -86,12 +86,15 @@ const HeroSection = () => {
         View Projects
     </a>
 
-    <button className="px-4 py-2 rounded-lg border border-emerald-600 
+    <a href="/gathoniResume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+     className="px-4 py-2 rounded-lg border border-emerald-600 
     dark:border-yellow-400 text-emerald-700 dark:text-yellow-400
     hover:bg-emerald-100 dark:hover:bg-gray-800 transition-transform cursor-pointer
     hover:scale-110 transform duration-300">
         Download CV
-    </button>
+    </a>
     </div>
 
 
