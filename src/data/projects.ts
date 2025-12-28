@@ -15,6 +15,16 @@ export const projectCategories = [
     },
     {
         id:2,
+        title: "OtakuBoxd",
+        image: "/inProgress.png",
+        description: "OtakuBoxd is an anime tracking and review platform inspired by Letterboxd and MyAnimeList. It allows users to track progress, mark anime as completed, and write reviews. Building this project strengthened my understanding of scalable React architecture, server-state management with TanStack Query, API integration, and planning a Node.js and PostgreSQL backend.",
+        githubUrl: "https://github.com/Gathoni-K/OtakuBoxd",
+        liveUrl: "",
+        tech: ["React", "TypeScript", "Tailwind CSS", "Shadcn UI", "Tanstack Query", "Node.js", "Jikan API"],
+        isTeam: false,
+    },
+    {
+        id:3,
         title: "AniTrack",
         image: "/Anime.png",
         description: "AniTrack is a project that uses the JikanAPI to fetch anime data and lets users build a personalized watchlist. It includes search functionality, dynamic DOM updates, local storage persistence, and clean JavaScript architecture. The project taught me proper list management, user-driven state",
@@ -24,7 +34,7 @@ export const projectCategories = [
         isTeam: false,
     },
     {
-        id:3,
+        id:4,
         title: "WeatherWatch",
         image: "/WeatherWatch.png",
         description: "WeatherWatch is a JavaScript-powered weather dashboard that pulls real-time data from the OpenWeatherMap API. It features current weather details and a 5-day forecast rendered dynamically from API responses. Through this project, I developed a stronger understanding of asynchronous JavaScript (async/await), JSON parsing, error handling, and updating UI elements based on API data.",
