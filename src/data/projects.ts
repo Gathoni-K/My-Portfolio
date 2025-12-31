@@ -66,7 +66,7 @@ export const projectCategories = [
     {
         id:5,
         title: "Canopy",
-        image: "/inProgress.png",
+        image: "/Canopy.png",
         description: "Canopy is a forest-monitoring web app that helps communities report local environmental threats and gives conservation teams a clear visual overview through an interactive map and simple analytics. As the Frontend Engineer, I built the entire dashboard using React, TypeScript, React-Leaflet, and Tailwind CSS—implementing dynamic map rendering, data-driven charts, and a responsive layout. This project pushed me to learn how to integrate mapping libraries, structure reusable components, handle real-time data patterns, and design clean visualizations that make complex information easy to understand.",
         githubUrl: "https://github.com/Gathoni-K/Canopy",
         tech: ["TailwindCSS", "React", "Chart JS", "React-Leaflet", "Typescript"],
