@@ -12,7 +12,7 @@ const About = () => {
         before:content-['']
         before:absolute
         before:top-0
-        before:left-0
+        before:left-0git
         before:w-6
         before:h-6
         before:border-t-4
@@ -60,7 +60,7 @@ const About = () => {
     text-gray-700 dark:text-gray-300">
         I'm a frontend developer and a Math and Computer Science student at JKUAT. I turn ideas into interfaces that feel effortless. Based in Nairobi, 
         I create interfaces that are both visually striking and 
-        user-friendly.
+        user-friendly. I am currently exploring backend development with Node.js with Express, and database management using PostgreSQL.
     </p>
 
         <h3 className="flex items-center justify-center mt-2 mb-2

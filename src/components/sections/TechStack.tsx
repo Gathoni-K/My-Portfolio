@@ -1,7 +1,9 @@
 const TechStack = () => {
     const frontend = ['React', 'TypeScript', 'JavaScript', 'Next.js'];
     const styling = ['Tailwind CSS', 'CSS3',];
-    const tools = ['Git', 'GitHub', 'VS Code', 'Shadcn UI', 'Figma'];
+    const tools = ['Git', 'GitHub', 'VS Code', 'Shadcn UI', 'Figma', 'Postman', 'Supabase'];
+    const backend = ['Node.js', 'Express js'];
+    const database = ['PostgreSQL'];
 
     return (
     <section className="
@@ -148,6 +150,65 @@ const TechStack = () => {
                 </span>
                 ))}
             </div>
+            <div>
+            <h3 className="
+                text-lg font-semibold mb-4
+                text-yellow-500 dark:text-yellow-400
+                border-l-4 border-yellow-500 dark:border-yellow-400
+                pl-3 px-4 mt-3 py-2
+            ">
+                Database
+            </h3>
+            <div className="flex flex-wrap gap-3">
+                {database.map((tech) => (
+                <span
+                    key={tech}
+                    className="
+                    px-4 py-2
+                    bg-emerald-500/10 dark:bg-yellow-400/10
+                    border-2 border-emerald-500/50 dark:border-yellow-400/50
+                    text-emerald-600 dark:text-yellow-400
+                    rounded-lg
+                    font-bold
+                    transition-all duration-300
+                    cursor-default
+                    "
+                >
+                    {tech}
+                </span>
+                ))}
+            </div>
+            </div>
+               <div>
+            <h3 className="
+                text-lg font-semibold mb-4
+                text-yellow-500 dark:text-yellow-400
+                border-l-4 border-yellow-500 dark:border-yellow-400
+                pl-3 px-4 py-2 mt-3
+            ">
+                Backend
+            </h3>
+            <div className="flex flex-wrap gap-3">
+                {backend.map((tech) => (
+                <span
+                    key={tech}
+                    className="
+                    px-4 py-2
+                    bg-emerald-500/10 dark:bg-yellow-400/10
+                    border-2 border-emerald-500/50 dark:border-yellow-400/50
+                    text-emerald-600 dark:text-yellow-400
+                    rounded-lg
+                    font-bold
+                    transition-all duration-300
+                    cursor-default
+                    "
+                >
+                    {tech}
+                </span>
+                ))}
+            </div>
+            </div>
+
             </div>
         </div>
         </section>
