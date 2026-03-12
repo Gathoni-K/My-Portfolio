@@ -58,9 +58,7 @@ const About = () => {
             >Hi, I'm Gathoni</h2>
     <p className="text-base leading-relaxed
     text-gray-700 dark:text-gray-300">
-        I'm a frontend developer and a Math and Computer Science student at JKUAT. I turn ideas into interfaces that feel effortless. Based in Nairobi, 
-        I create interfaces that are both visually striking and 
-        user-friendly. I am currently exploring backend development with Node.js with Express, and database management using PostgreSQL.
+    I’m a Nairobi-based Frontend Developer and a second-year Math & Computer Science student at JKUAT. I specialize in turning complex ideas into effortless, visually striking interfaces. Using React, TypeScript and Tailwind CSS I build responsive web applications with a strict focus on performance and accessibility. Currently, I'm expanding into full-stack development, building robust backends with Node.js, Express, PostgreSQL, and Drizzle ORM.
     </p>
 
         <h3 className="flex items-center justify-center mt-2 mb-2
@@ -70,8 +68,7 @@ const About = () => {
         pl-3 md:mt-6 md:mb-3"
         >What Do I Do?</h3>
     <p className="dark:text-stone-50">
-        I specialize in React and TypeScript, building responsive 
-        web applications with a focus on performance and accessibility.
+        Crafting responsive, accessible, and performant web experiences with React and TypeScript. Currently bridging the gap to full-stack development by building robust backend systems with Node.js, Express, and PostgreSQL.
     </p>
             </div>
             
