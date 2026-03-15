@@ -25,6 +25,17 @@ export const projectCategories = [
     },
     {
         id:3,
+        title: "Library Management System",
+        image: "/library.jpeg",
+        description: "A RESTful backend API built with Node.js, Express and TypeScript, backed by a PostgreSQL database hosted on Supabase. The API handles full CRUD operations across four resources — books, members, loans and fines — with business logic covering real library workflows such as issuing books, tracking active and overdue loans, and calculating fines at a fixed daily rate. Data access is managed through Drizzle ORM for type-safe querying, with a central error handling middleware ensuring consistent API responses across all endpoints.",
+        githubUrl: "https://github.com/Gathoni-K/database-learning/tree/master/libraryDatabase",
+        liveUrl: "",
+        tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Postman", "Drizzle ORM"],
+        isTeam: false,
+    },
+
+    {
+        id:4,
         title: "AniTrack",
         image: "/Anime.png",
         description: "AniTrack is a project that uses the JikanAPI to fetch anime data and lets users build a personalized watchlist. It includes search functionality, dynamic DOM updates, local storage persistence, and clean JavaScript architecture. The project taught me proper list management, user-driven state",
