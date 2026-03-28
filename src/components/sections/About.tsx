@@ -58,7 +58,8 @@ const About = () => {
             >Hi, I'm Gathoni</h2>
     <p className="text-base leading-relaxed
     text-gray-700 dark:text-gray-300">
-    I’m a Nairobi-based Frontend Developer and a second-year Math & Computer Science student at JKUAT. I specialize in turning complex ideas into effortless, visually striking interfaces. Using React, TypeScript and Tailwind CSS I build responsive web applications with a strict focus on performance and accessibility. Currently, I'm expanding into full-stack development, building robust backends with Node.js, Express, PostgreSQL, and Drizzle ORM.
+        I’m a Nairobi-based Software Engineer combining a rigorous Math & Computer Science foundation from JKUAT with hands-on experience shipping production-ready web applications. I specialize in architecting high-performance, accessible interfaces using React, TypeScript, and Tailwind CSS. Driven by an end-to-end engineering mindset, I also build robust, scalable backends with Node.js, Express, PostgreSQL, and Drizzle ORM—ensuring every product is as powerful under the hood as it is effortless for the user.
+
     </p>
 
         <h3 className="flex items-center justify-center mt-2 mb-2
@@ -68,7 +69,7 @@ const About = () => {
         pl-3 md:mt-6 md:mb-3"
         >What Do I Do?</h3>
     <p className="dark:text-stone-50">
-        Crafting responsive, accessible, and performant web experiences with React and TypeScript. Currently bridging the gap to full-stack development by building robust backend systems with Node.js, Express, and PostgreSQL.
+        Engineering seamless digital experiences from the UI to the database. I build responsive, visually striking frontends with React and TypeScript, fully integrated with robust, scalable backends using Node.js, Express, and PostgreSQL.
     </p>
             </div>
             

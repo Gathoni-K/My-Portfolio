@@ -1,4 +1,5 @@
 import { TypeAnimation } from "react-type-animation";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
 const HeroSection = () => {
     return (
@@ -52,7 +53,7 @@ const HeroSection = () => {
                 <TypeAnimation
                     sequence={[
                         1000,
-                        "> Position \n Junior Frontend Developer.",
+                        "> Position \n  Frontend Developer.",
                     ]}
                     speed={50}
                     style={{ 
@@ -97,6 +98,36 @@ const HeroSection = () => {
     </a>
     </div>
 
+    {/* links */}
+                    <div className="flex justify-center items-center mt-2 md:mt-3
+                                    gap-4
+                                    ">
+                    
+                                        <a href="https://www.linkedin.com/in/gathoni-karume-43791b2aa/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="Linkedin Profile"
+                                        className="hover:scale-110 transform
+                                        transition-transform duration-300 hover:bg-yellow-400 dark:hover:bg-emerald-500
+                                        hover:drop-shadow-[0_0_5px_#facc15] px-6 py-3 text-md text-emerald-500 dark:text-emerald-400
+                                        border-yellow-400 dark:border-yellow-400 border rounded-md hover:text-stone-50">
+                                            <FaLinkedin />
+                                        </a>
+                    
+                                        <a href="https://github.com/Gathoni-K"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        aria-label="GitHub Profile"
+                                        className="hover:scale-110 transform
+                                        transition-transform duration-300 hover:bg-yellow-400 dark:hover:bg-emerald-500
+                                        hover:drop-shadow-[0_0_5px_#facc15] px-6 py-3 text-md border 
+                                        border-yellow-400 dark:border-yellow-400 rounded-md text-emerald-500 dark:text-emerald-400 
+                                        hover:text-stone-50"
+                                        >
+                                            <FaGithub />
+                                        </a>
+                    
+                                    </div>
 
 
         </div>
