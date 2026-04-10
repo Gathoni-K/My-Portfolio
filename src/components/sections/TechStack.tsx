@@ -1,7 +1,7 @@
 const TechStack = () => {
     const frontend = ['React', 'TypeScript', 'Javascript'];
     const styling = ['Tailwind CSS', 'CSS3',];
-    const tools = ['Git', 'GitHub', 'VS Code', 'Shadcn UI', 'Figma', 'Postman', 'Supabase', 'Drizzle ORM', 'Vercel', 'Render'];
+    const tools = ['Git', 'GitHub', 'VS Code', 'Shadcn UI', 'Figma', 'Postman', 'Supabase', 'Drizzle ORM', 'Docker', 'Vercel', 'Render'];
     const backend = ['Node.js', 'Express js'];
     const database = ['PostgreSQL'];
 
