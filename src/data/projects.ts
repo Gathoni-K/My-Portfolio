@@ -38,10 +38,10 @@ export const projectCategories = [
         id:4,
         title: "AniTrack",
         image: "/Anime.png",
-        description: "AniTrack is a dynamic frontend application engineered to consume the Jikan REST API, delivering a seamless and personalized media tracking experience. Built with React and TypeScript, the platform features real-time search functionality, responsive UI updates, and client-side data persistence via Local Storage. By implementing a strict, component-driven architecture with CSS Modules, I architected a highly efficient global state management system to handle complex user interactions and list mutations.",
+        description: "AniTrack is a dynamic full-stack application that combines real-time anime discovery with an AI-powered recommendation engine. Built with React and TypeScript on the frontend, the platform consumes the Jikan REST API for live anime data and integrates a serverless backend architecture on Vercel to securely host SenpAI — a context-aware AI assistant powered by the Gemini API.The application features real-time search functionality, client-side data persistence via Local Storage, and a conversational AI layer that uses function calling to fetch and synthesize live anime data before responding to the user. The serverless backend manages API key security, CORS handling, and the full AI tool-use loop — from the initial prompt to the tool handoff and final response. Built with a strict component-driven architecture using CSS Modules and a scalable separation of concerns across types, tool definitions, and agent logic.",
         githubUrl: "https://github.com/Gathoni-K/anime-watchlist",
-        liveUrl: "https://anime-watchlist-seven.vercel.app",
-        tech: ["CSS Modules", "React", "TypeScript", "Jikan API"],
+        liveUrl: "https://anitrack-senpai.vercel.app/",
+        tech: ["CSS Modules", "React", "TypeScript", "Jikan API", "Gemini API", "Vercel Serverless Function" ],
         isTeam: false,
     },
     {
@@ -64,6 +64,18 @@ export const projectCategories = [
         projects: [
             {
         id:4,
+        title: "BuildLink",
+        image: "/buildLink.png",
+        description: "BuildLink Kenya is a professional networking and learning platform purpose-built for Kenya's built environment sector — connecting architecture students, interior designers, construction workers, and industry mentors in one community-driven space. Think LinkedIn meets Reddit, designed specifically for the construction and design industry.As a volunteer Frontend Engineer, I contribute directly to the platform's live production codebase — diagnosing real bugs, shipping fixes, and building new features alongside an active development team.Contributions so far:Diagnosed and resolved a broken authentication flow, restoring seamless user login and session management across the platform. Currently developing additional frontend features within the existing React and TypeScript architecture",
+        githubUrl: "https://github.com/buildlink-org/buildlink/tree/grace",
+        liveUrl: "https://buildlink.co.ke/",
+        tech: ["React", "Tailwind CSS", "Shadcn UI", "Typescript" ],
+        isTeam: true,
+        myRole: " Frontend Engineer (Volunteer)",
+
+    },
+            {
+        id:5,
         title: "Logigas",
         image: "/LogiGas.png",
         description: "LogiGas is a smart LPG delivery platform leveraging location intelligence to streamline gas distribution and optimize dispatch efficiency. Serving as the Frontend Engineer, I architected an interactive geospatial dashboard using React, TypeScript, Leaflet.js, and OpenStreetMap to dynamically visualize delivery nodes and render optimized driver routes. By engineering robust route calculation logic and modular map components, I delivered a highly responsive UI that translates complex logistics into a seamless, actionable workflow for both drivers and dispatch teams",
@@ -75,7 +87,7 @@ export const projectCategories = [
 
     },
     {
-        id:5,
+        id:6,
         title: "Canopy",
         image: "/Canopy.png",
         description: "Canopy is a comprehensive forest-monitoring platform designed to empower communities in reporting environmental threats while providing conservation teams with actionable, map-driven analytics. Serving as the Frontend Engineer, I architected the complete dashboard using React, TypeScript, React-Leaflet, and Tailwind CSS to implement dynamic geospatial rendering and data-driven charting. By engineering a modular component structure and robust real-time data patterns, I delivered a highly responsive visualization interface that translates complex environmental metrics into clear, actionable insights.",
@@ -85,7 +97,7 @@ export const projectCategories = [
         myRole: "Frontend Engineer"
     },
     {
-        id:6,
+        id:7,
         title: "DryPlan",
         image: "/eventDetails.jpeg",
         description: "DryPlan is an intelligent event management platform that integrates predictive meteorological data to deliver weather-aware planning insights. Serving as a Frontend Engineer, I architected the core Event Detail interface using React and CSS Modules, engineering dynamic visualizations for hourly weather timelines, precipitation probabilities, and automated contingency workflows. By implementing robust client-server integration across multiple forecasting APIs and meticulously managing complex loading and error states, I delivered a highly resilient and seamless user experience.",
