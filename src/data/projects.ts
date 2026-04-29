@@ -30,7 +30,7 @@ export const projectCategories = [
         description: "This project features a production-ready Library Management API designed for high reliability and seamless scalability. Built with Node.js, Express, and TypeScript, the system handles the complexities of a real-world library ecosystem—managing Books, Members, Loans, and Fines through a type-safe architecture powered by Drizzle ORM and PostgreSQL.Beyond core CRUD functionality, the backend implements sophisticated business logic to automate overdue tracking and daily fine accruals. To ensure the highest standards of security, I integrated Supabase Auth, providing robust user authentication and granular, role-based authorization for sensitive operations. The entire infrastructure is fully Dockerized, guaranteeing a consistent, portable environment that simplifies deployment and ensures the system performs reliably across any platform.",
         githubUrl: "https://github.com/Gathoni-K/database-learning/tree/master/libraryDatabase",
         liveUrl: "",
-        tech: ["Node.js", "Express", "PostgreSQL", "Supabase", "Postman", "Drizzle ORM", "Docker", "Supabase Auth"],
+        tech: ["Node.js", "Express", "PostgreSQL", "Postman", "Drizzle ORM", "Docker", "Supabase Auth"],
         isTeam: false,
     },
 
@@ -74,8 +74,20 @@ export const projectCategories = [
         myRole: " Frontend Engineer (Volunteer)",
 
     },
-            {
+    {
         id:5,
+        title: "OctalFoundry",
+        image: "/octalFoundry.png",
+        description: "An intelligent, schedule-aware learning platform bridging the competency gap for African university students through AI-driven Socratic tutoring.Architecting the Core: Designing a type-safe Node.js/TypeScript backend with PostgreSQL and Drizzle ORM for high-integrity data management.Gatekeeper Engine: Developing milestone-based logic to ensure students master concepts before progressing.AI Tutoring: Integrating Google Gemini (Streaming) to deliver real-time, Socratic dialogue synchronized with student timetables.Knowledge Tracing: Building the data pipeline for the Kenyan Education Dataset to track and analyze student competency growth.",
+        githubUrl: "https://github.com/Gathoni-K/octalFoundry",
+        liveUrl: "https://octalfoundry.vercel.app/",
+        tech: ["Node.js", "Express", "Postman", "Drizzle ORM","PostgreSQL", "React", "Tailwind CSS", "Typescript" ],
+        isTeam: true,
+        myRole: "Tech Lead & Backend Engineer",
+
+    },
+            {
+        id:6,
         title: "Logigas",
         image: "/LogiGas.png",
         description: "LogiGas is a smart LPG delivery platform leveraging location intelligence to streamline gas distribution and optimize dispatch efficiency. Serving as the Frontend Engineer, I architected an interactive geospatial dashboard using React, TypeScript, Leaflet.js, and OpenStreetMap to dynamically visualize delivery nodes and render optimized driver routes. By engineering robust route calculation logic and modular map components, I delivered a highly responsive UI that translates complex logistics into a seamless, actionable workflow for both drivers and dispatch teams",
@@ -87,7 +99,7 @@ export const projectCategories = [
 
     },
     {
-        id:6,
+        id:7,
         title: "Canopy",
         image: "/Canopy.png",
         description: "Canopy is a comprehensive forest-monitoring platform designed to empower communities in reporting environmental threats while providing conservation teams with actionable, map-driven analytics. Serving as the Frontend Engineer, I architected the complete dashboard using React, TypeScript, React-Leaflet, and Tailwind CSS to implement dynamic geospatial rendering and data-driven charting. By engineering a modular component structure and robust real-time data patterns, I delivered a highly responsive visualization interface that translates complex environmental metrics into clear, actionable insights.",
@@ -97,7 +109,7 @@ export const projectCategories = [
         myRole: "Frontend Engineer"
     },
     {
-        id:7,
+        id:8,
         title: "DryPlan",
         image: "/eventDetails.jpeg",
         description: "DryPlan is an intelligent event management platform that integrates predictive meteorological data to deliver weather-aware planning insights. Serving as a Frontend Engineer, I architected the core Event Detail interface using React and CSS Modules, engineering dynamic visualizations for hourly weather timelines, precipitation probabilities, and automated contingency workflows. By implementing robust client-server integration across multiple forecasting APIs and meticulously managing complex loading and error states, I delivered a highly resilient and seamless user experience.",
