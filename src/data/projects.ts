@@ -5,6 +5,16 @@ export const projectCategories = [
         projects: [
             {
         id:1,
+        title: "ArbanTV",
+        image: "/arbanTV.png",
+        description: "ArbanTV is a localized, premium Video-on-Demand (VOD) platform designed to help niche African content creators—such as experts in parenting and wellness—monetize their knowledge through a direct, pay-per-series marketplace. To validate market demand while maintaining a lean infrastructure, I have successfully mapped out the business strategy and dual-sided user flows, designed the creator onboarding pipelines, and architected an MVP model that utilizes YouTube's private video ecosystem for zero-cost, access-controlled hosting. I am currently developing the platform's backend and actively integrating the M-Pesa Daraja API to handle seamless mobile micro-transactions, which will allow the system to automatically verify payments and provision secure video access to viewers.",
+        githubUrl: "https://github.com/Gathoni-K/arbanTV",
+        liveUrl: "https://arbantv.onrender.com/",
+        tech: ["Tailwind CSS", "Shadcn UI", "React", "TypeScript", "Node.js", "Express.js", "Supabase", "Drizzle ORM"],
+        isTeam: false,
+    },
+            {
+        id:2,
         title: "Cluck & Co.",
         image: "/Cluck.png",
         description: "Cluck & Co is a responsive e-commerce storefront designed to streamline the browsing experience for agricultural products. Engineered with React and TypeScript, the platform features a dynamic product catalog, modular card components, and a mobile-first architecture. By leveraging Tailwind CSS and Shadcn UI, I implemented strict layout consistency and accessible design patterns to ensure a seamless shopping experience across all devices.",
@@ -14,7 +24,7 @@ export const projectCategories = [
         isTeam: false,
     },
     {
-        id:2,
+        id:3,
         title: "OtakuBoxd",
         image: "/inProgress.png",
         description: "OtakuBoxd is a comprehensive media tracking and review platform that enables users to curate personalized watchlists, log viewing progress, and publish reviews. Architected with React and TypeScript, the application leverages TanStack Query for highly optimized server-state management and seamless third-party API integration. The platform features a scalable, component-driven frontend designed in tandem with a robust Node.js and PostgreSQL backend to handle complex relational user data.",
@@ -24,7 +34,7 @@ export const projectCategories = [
         isTeam: false,
     },
     {
-        id:3,
+        id:4,
         title: "Library Management System",
         image: "/library.png",
         description: "This project features a production-ready Library Management API designed for high reliability and seamless scalability. Built with Node.js, Express, and TypeScript, the system handles the complexities of a real-world library ecosystem—managing Books, Members, Loans, and Fines through a type-safe architecture powered by Drizzle ORM and PostgreSQL.Beyond core CRUD functionality, the backend implements sophisticated business logic to automate overdue tracking and daily fine accruals. To ensure the highest standards of security, I integrated Supabase Auth, providing robust user authentication and granular, role-based authorization for sensitive operations. The entire infrastructure is fully Dockerized, guaranteeing a consistent, portable environment that simplifies deployment and ensures the system performs reliably across any platform.",
@@ -35,7 +45,7 @@ export const projectCategories = [
     },
 
     {
-        id:4,
+        id:5,
         title: "AniTrack",
         image: "/Anime.png",
         description: "AniTrack is a dynamic full-stack application that combines real-time anime discovery with an AI-powered recommendation engine. Built with React and TypeScript on the frontend, the platform consumes the Jikan REST API for live anime data and integrates a serverless backend architecture on Vercel to securely host SenpAI — a context-aware AI assistant powered by the Gemini API.The application features real-time search functionality, client-side data persistence via Local Storage, and a conversational AI layer that uses function calling to fetch and synthesize live anime data before responding to the user. The serverless backend manages API key security, CORS handling, and the full AI tool-use loop — from the initial prompt to the tool handoff and final response. Built with a strict component-driven architecture using CSS Modules and a scalable separation of concerns across types, tool definitions, and agent logic.",
@@ -45,7 +55,7 @@ export const projectCategories = [
         isTeam: false,
     },
     {
-        id:4,
+        id:6,
         title: "WeatherWatch",
         image: "/WeatherWatch.png",
         description: "WeatherWatch is a dynamic client-side dashboard engineered to deliver real-time meteorological data and extended forecasts via the OpenWeatherMap API. Built with vanilla JavaScript, HTML, and CSS3, the application processes complex JSON payloads to dynamically render current conditions alongside a 5-day predictive outlook. By implementing robust asynchronous logic (async/await) and comprehensive error handling, I architected a fault-tolerant system that ensures seamless API communication and highly responsive UI updates.",

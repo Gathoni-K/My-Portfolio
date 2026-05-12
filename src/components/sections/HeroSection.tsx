@@ -53,7 +53,7 @@ const HeroSection = () => {
                 <TypeAnimation
                     sequence={[
                         1000,
-                        "> Position \n  Frontend Developer.",
+                        "> Position \n  Fullstack Developer.",
                     ]}
                     speed={50}
                     style={{ 
